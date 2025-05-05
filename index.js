@@ -5,7 +5,7 @@
 let r = document.getElementById("result")
 const form = document.getElementById("form")
 
-let randomNum = Math.floor(Math.random() * 10)
+let randomNum = Math.floor(Math.random() * 100)
 let count = 0
 
 form.addEventListener ("submit", (event) => {
